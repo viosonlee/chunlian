@@ -181,8 +181,11 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="about">本软件为@买太狼独立构思设计开发，如有任何疑问可微博私信\n<a href="http://weibo.com/viosonlee"/></string>
+    <string name="about_title">关于买太狼：</string>
     <string name="action_settings">设置</string>
+    <string name="already_end">已经到头了，亲~~</string>
     <string name="app_name">中国春联</string>
+    <string name="china_classcal_chunlian">中国传统春联</string>
     <string name="chunjie101">公鸡神采奕奕，带来平安如意；母鸡勤劳美丽，下个金蛋给你；小鸡活泼淘气，挥洒欢乐满地；电话传情达意，祝你鸡年大吉！</string>
     <string name="chunjie102">闻鸡欣起舞；跃马喜争春。金鸡歌盛世；喜鹊报新春。</string>
     <string name="chunjie103">鸡鸣天下晓；燕舞世间春。猴舞先伸手；鸡鸣早起身</string>
@@ -315,6 +318,35 @@
     <string name="duilian94">五更分两年年年称心\n一夜连两岁岁岁如意\n恭贺新春</string>
     <string name="duilian95">春色明媚山河披锦绣\n华夏腾飞祖国万年轻\n山河壮丽</string>
     <string name="duilian96">春风送春处处春色美\n喜鹊报喜家家喜事多\n春喜共贺</string>
+    <string name="duilian_10_word">十字对联大全</string>
+    <string name="duilian_11_word">十一字对联大全</string>
+    <string name="duilian_12_word">十二字对联大全</string>
+    <string name="duilian_13_word">十三字对联大全</string>
+    <string name="duilian_4_word">四字对联大全</string>
+    <string name="duilian_5_word">五字对联大全</string>
+    <string name="duilian_6_word">六字对联大全</string>
+    <string name="duilian_7_word">七字对联大全</string>
+    <string name="duilian_8_word">八字对联大全</string>
+    <string name="duilian_9_word">九字对联大全</string>
+    <string name="flop_right">向右滑</string>
+    <string name="gou">狗年祝福</string>
+    <string name="hou">猴年祝福</string>
+    <string name="hu">虎年祝福</string>
+    <string name="i_konw">我知道了</string>
+    <string name="ji">鸡年祝福</string>
+    <string name="last_one">老大，我是最后一个，您不记得我吗？</string>
+    <string name="long_">龙年祝福</string>
+    <string name="ma">马年祝福</string>
+    <string name="msg_word">中国春节必备神器，欢迎下载！</string>
+    <string name="niu">牛年祝福</string>
+    <string name="no_update">已经是最新版本</string>
+    <string name="press_to_exit">再按一次退出程序</string>
+    <string name="save_ok">成功收藏！</string>
+    <string name="she">蛇年祝福</string>
+    <string name="shu">鼠年祝福</string>
+    <string name="tu">兔年祝福</string>
+    <string name="yang">羊年祝福</string>
+    <string name="zhu">猪年祝福</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
