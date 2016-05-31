@@ -33,10 +33,8 @@ public class AppsFragment extends Fragment {
 			getString(R.string.duilian_10_word),getString(R.string.duilian_11_word),
 			getString(R.string.duilian_12_word),
 			getString(R.string.duilian_13_word)};
+
 	@Override
-
-
-
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		//		System.out.println("AppsFragment :: onCreateView...");
 

@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		final View view = View.inflate(this, R.layout.activity_main, null);
 		setContentView(view);
 		context = this;
-		Bmob.initialize(context, "43eb3ca2f9cce3622d100c826cb4e5db");
+//		Bmob.initialize(context, "43eb3ca2f9cce3622d100c826cb4e5db");
 
 		Log.i("dd", Thread.currentThread().getName());
 		init();
@@ -70,7 +70,6 @@ public class MainActivity extends Activity {
 		isFirstIn = preferences.getBoolean("isFirstIn", true);
 		if (isFirstIn) {
 			writeData();
-			;
 		}
 	}
 
