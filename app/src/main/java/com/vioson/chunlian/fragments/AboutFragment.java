@@ -1,4 +1,4 @@
-package com.vioson.chunlian;
+package com.vioson.chunlian.fragments;
 
 
 
@@ -16,8 +16,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.vioson.chunlian.R;
 
-public class MessageFragment extends Fragment implements OnClickListener{
+
+public class AboutFragment extends Fragment implements OnClickListener{
 	private Button btn_login,btn_logoff,btn_help,btn_visitus,btn_about;
 	private String url="http://weibo.com/viosonlee";
 	@Override

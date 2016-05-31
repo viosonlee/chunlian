@@ -8,7 +8,7 @@
         android:id="@+id/img_list"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/ic_launcher_1" />
 
     <TextView
         android:id="@+id/tv_list"

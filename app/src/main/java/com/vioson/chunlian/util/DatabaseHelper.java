@@ -1,4 +1,4 @@
-package com.vioson.util;
+package com.vioson.chunlian.util;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

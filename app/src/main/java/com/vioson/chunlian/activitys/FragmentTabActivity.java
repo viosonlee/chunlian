@@ -1,4 +1,4 @@
-package com.vioson.chunlian;
+package com.vioson.chunlian.activitys;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,7 +16,10 @@ import android.widget.RelativeLayout;
 import android.widget.TabHost;
 import android.widget.Toast;
 
-import com.vioson.util.ActivityUtils;
+import com.vioson.chunlian.R;
+import com.vioson.chunlian.fragments.WordFragment;
+import com.vioson.chunlian.fragments.LunarFragment;
+import com.vioson.chunlian.fragments.AboutFragment;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,18 +48,18 @@ public class FragmentTabActivity extends FragmentActivity {
 		RelativeLayout app = (RelativeLayout) getLayoutInflater().inflate(
 				R.layout.app_tab_layout, null);
 		mTabManager.addTab(mTabHost.newTabSpec("Apps").setIndicator(app),
-				AppsFragment.class, null);
+				WordFragment.class, null);
 
 		RelativeLayout contacts = (RelativeLayout) getLayoutInflater().inflate(
 				R.layout.contacts_tab_layout, null);
 		mTabManager.addTab(mTabHost.newTabSpec("Contact")
-				.setIndicator(contacts), ContactsFragment.class, null);
+				.setIndicator(contacts), LunarFragment.class, null);
 
 		RelativeLayout message = (RelativeLayout) getLayoutInflater().inflate(
 				R.layout.message_tab_layout, null);
 		mTabManager.addTab(
 				mTabHost.newTabSpec("Message").setIndicator(message),
-				MessageFragment.class, null);
+				AboutFragment.class, null);
 		findViewById(R.id.btn_settings).setOnClickListener(mOnClickListener);
 
 		if (savedInstanceState != null) {
@@ -68,7 +71,7 @@ public class FragmentTabActivity extends FragmentActivity {
 		SharedPreferences preferences = getSharedPreferences("first_pref", Context.MODE_PRIVATE);
         Editor editor = preferences.edit();
         editor.putBoolean("isFirstIn", false);
-        editor.commit();              
+        editor.apply();
 }
 	private OnClickListener mOnClickListener = new OnClickListener() {
 		@Override

@@ -64,8 +64,12 @@
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher_1.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_1.png"
+    },
+    {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "source": "E:\\myworkspace\\chunlian\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",

@@ -1,4 +1,4 @@
-package com.vioson.chunlian;
+package com.vioson.chunlian.activitys;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,7 +12,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.vioson.util.DatabaseHelper;
+import com.vioson.chunlian.R;
+import com.vioson.chunlian.util.DatabaseHelper;
 
 public class ShowTextActivity extends Activity implements OnClickListener{
 	private Button btn_share,btn_next,btn_previous,btn_save;

@@ -1,4 +1,4 @@
-package com.vioson.chunlian;
+package com.vioson.chunlian.activitys;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,9 +15,7 @@ import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.widget.TextView;
 
-import com.vioson.util.ActivityUtils;
-
-import cn.bmob.v3.Bmob;
+import com.vioson.chunlian.R;
 
 public class MainActivity extends Activity {
 	private boolean isFirstIn;

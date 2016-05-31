@@ -65,14 +65,14 @@ MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:14:3-39
 	android:theme
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:16:3-34
-activity#com.vioson.chunlian.MainActivity
+activity#com.vioson.chunlian.activitys.MainActivity
 ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:17:3-25:14
 	android:label
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:19:4-36
 	android:theme
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:20:4-51
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:18:4-51
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:18:4-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:21:4-24:20
 action#android.intent.action.MAIN
@@ -83,22 +83,22 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:23:5-65
 	android:name
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:23:15-62
-activity#com.vioson.chunlian.FragmentTabActivity
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:3-70
+activity#com.vioson.chunlian.activitys.FragmentTabActivity
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:3-61
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:13-67
-activity#com.vioson.chunlian.ShowTextActivity
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:13-58
+activity#com.vioson.chunlian.activitys.ShowTextActivity
 ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:27:3-29:66
 	android:theme
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:29:4-63
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:28:4-55
-activity#com.vioson.chunlian.ShowTextActivity2
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:28:4-46
+activity#com.vioson.chunlian.activitys.ShowTextActivity2
 ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:30:3-32:66
 	android:theme
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:32:4-63
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:31:4-56
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:31:4-47
 uses-sdk
 INJECTED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43

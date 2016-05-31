@@ -1,6 +1,7 @@
-package com.vioson.chunlian;
+package com.vioson.chunlian.fragments;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -14,7 +15,9 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
-import com.vioson.util.DatabaseHelper;
+import com.vioson.chunlian.R;
+import com.vioson.chunlian.activitys.ShowTextActivity2;
+import com.vioson.chunlian.util.DatabaseHelper;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,20 +25,32 @@ import java.util.List;
 import java.util.Map;
 
 
-public class ContactsFragment extends Fragment {
+public class LunarFragment extends Fragment {
     private GridView list2;
     private SimpleAdapter adapter;
     private List<Map<String, Object>> mData;
-    private String[] mText = {getString(R.string.shu), getString(R.string.niu),
-            getString(R.string.hu), getString(R.string.tu), getString(R.string.long_), getString(R.string.she)
-            , getString(R.string.ma), getString(R.string.yang), getString(R.string.hou),
-            getString(R.string.ji), getString(R.string.gou), getString(R.string.zhu)};
+    //    private String[] mText = {getString(R.string.shu), getString(R.string.niu),
+//            getString(R.string.hu), getString(R.string.tu), getString(R.string.long_), getString(R.string.she)
+//            , getString(R.string.ma), getString(R.string.yang), getString(R.string.hou),
+//            getString(R.string.ji), getString(R.string.gou), getString(R.string.zhu)};
+    private ArrayList<String> mList;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        mList = new ArrayList<>();
+        mList.add(getString(R.string.shu));
+        mList.add(getString(R.string.niu));
+        mList.add(getString(R.string.hu));
+        mList.add(getString(R.string.tu));
+        mList.add(getString(R.string.long_));
+        mList.add(getString(R.string.she));
+        mList.add(getString(R.string.ma));
+        mList.add(getString(R.string.yang));
+        mList.add(getString(R.string.hou));
+        mList.add(getString(R.string.ji));
+        mList.add(getString(R.string.gou));
+        mList.add(getString(R.string.zhu));
     }
 
     @Override
@@ -64,9 +79,9 @@ public class ContactsFragment extends Fragment {
 
 
     private List<? extends Map<String, ?>> getData() {
-        for (int i = 0; i < mText.length; i++) {
+        for (int i = 0; i < mList.size(); i++) {
             Map<String, Object> map = new HashMap<String, Object>();
-            map.put("text", mText[i]);
+            map.put("text", mList.get(i));
             map.put("icon", R.drawable.ic_launcher);
             mData.add(map);
         }

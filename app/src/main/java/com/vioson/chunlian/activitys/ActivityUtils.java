@@ -1,4 +1,4 @@
-package com.vioson.util;
+package com.vioson.chunlian.activitys;
 
 
 import android.app.Activity;
@@ -6,8 +6,9 @@ import android.content.ContentValues;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.vioson.chunlian.MainActivity;
+import com.vioson.chunlian.activitys.MainActivity;
 import com.vioson.chunlian.R;
+import com.vioson.chunlian.util.DatabaseHelper;
 
 
 public class ActivityUtils {
