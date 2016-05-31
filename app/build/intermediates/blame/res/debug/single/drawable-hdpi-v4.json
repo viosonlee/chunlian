@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_item_pressed.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\tab_item_pressed.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_message_sel.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\icon_message_sel.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_title_bar.9.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\app_title_bar.9.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tab_icon_sel.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\tab_icon_sel.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_home_sel.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\icon_home_sel.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_home_nor.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\icon_home_nor.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_message_nor.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\icon_message_nor.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\app_title_bar_line.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\app_title_bar_line.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\maintab_toolbar_bg.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\maintab_toolbar_bg.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\setting_item.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\setting_item.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_selfinfo_nor.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\icon_selfinfo_nor.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_selfinfo_sel.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\icon_selfinfo_sel.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\action_settings.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable-hdpi\\action_settings.png"
+    }
+]

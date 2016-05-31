@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabs.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\fragment_tabs.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_tab_layout.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\message_tab_layout.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text_animation3.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\text_animation3.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_tab_layout.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\contacts_tab_layout.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_text.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\activity_show_text.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mylist2.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\mylist2.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_tab_layout.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\app_tab_layout.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text_animation.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\text_animation.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text_animation2.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\text_animation2.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting_item.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\fragment_setting_item.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mylist.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\mylist.xml"
+    }
+]

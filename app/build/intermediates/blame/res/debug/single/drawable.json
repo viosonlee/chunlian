@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_bg.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\selector_tab_bg.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ico.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\ico.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\title.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_crim.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\btn_crim.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_progress.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\selector_progress.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_message.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\selector_tab_message.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_icon.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\selector_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\save_passed.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\save_passed.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\save.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\save.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_contacts.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\selector_tab_contacts.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.jpg",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\icon.jpg"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_push.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\tab_push.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_color.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\btn_color.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bc.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\bc.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selcet.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\btn_selcet.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tab_home.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\selector_tab_home.xml"
+    }
+]
