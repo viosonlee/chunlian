@@ -8,11 +8,11 @@
         android:state_selected="false"/>
     
     <item 
-        android:drawable="@drawable/maintab_toolbar_bg" 
+        android:drawable="@color/crimson"
         android:state_selected="true"/>
     
     <item 
-        android:drawable="@drawable/maintab_toolbar_bg"
-        android:state_pressed="true"></item>
+        android:drawable="@color/crimson"
+        android:state_pressed="true"/>
 
 </selector>

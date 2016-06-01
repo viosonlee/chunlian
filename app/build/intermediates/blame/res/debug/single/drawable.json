@@ -160,6 +160,10 @@
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_bar_states.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\progress_bar_states.xml"
+    },
+    {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_selcet.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\btn_selcet.xml"
     },

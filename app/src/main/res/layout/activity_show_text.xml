@@ -2,14 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:background="@drawable/title"
         android:gravity="center_vertical"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/tv_title"
@@ -22,7 +24,7 @@
             android:textSize="18dp" />
 
         <Button
-            android:id="@+id/btn_save"
+            android:id="@+id/btn_share"
             android:layout_width="48dip"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
@@ -32,59 +34,109 @@
         <ImageView
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:layout_toLeftOf="@id/btn_save"
+            android:layout_toLeftOf="@id/btn_share"
             android:background="@drawable/app_title_bar_line" />
     </RelativeLayout>
 
-    <ScrollView
-        android:id="@+id/sv_one"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1" >
-
-        <TextView
+    <!--<ScrollView-->
+        <!--android:id="@+id/sv_one"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1">-->
+        <com.vioson.chunlian.views.XingKaiTextView
             android:id="@+id/tv_text"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="TextView"
-            android:textSize="30dp" />
-    </ScrollView>
+            android:layout_gravity="center"
+            android:overScrollMode="ifContentScrolls"
+            android:textColor="@color/text_yellow"
+            android:textSize="35sp" />
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="15dp">-->
+
+            <!--<com.vioson.chunlian.views.XingKaiTextView-->
+                <!--android:id="@+id/tv_text_up"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_text_h"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_toLeftOf="@+id/tv_text_h"-->
+                <!--android:ems="1"-->
+                <!--android:text="上联"-->
+                <!--android:textColor="@color/text_yellow"-->
+                <!--android:textSize="35sp" />-->
+
+            <!--<com.vioson.chunlian.views.XingKaiTextView-->
+                <!--android:id="@+id/tv_text_h"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:ems="4"-->
+                <!--android:text="横批"-->
+                <!--android:textColor="@color/text_yellow"-->
+                <!--android:textSize="35sp" />-->
+
+            <!--<com.vioson.chunlian.views.XingKaiTextView-->
+                <!--android:id="@+id/tv_text_down"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/tv_text_h"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_toRightOf="@+id/tv_text_h"-->
+                <!--android:ems="1"-->
+                <!--android:text="下联"-->
+                <!--android:textColor="@color/text_yellow"-->
+                <!--android:textSize="35sp" />-->
+        <!--</RelativeLayout>-->
+
+    <!--</ScrollView>-->
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
-        <Button
+        <com.vioson.chunlian.views.XingKaiButton
             android:id="@+id/btn_previous"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginRight="1dp"
             android:layout_weight="1"
             android:background="@drawable/selector_tab_bg"
+            android:onClick="previous"
             android:text="上一个"
-            android:textColor="@color/white" />
+            android:textColor="@color/text_yellow"
+            android:textSize="16sp" />
 
-        <Button
-            android:id="@+id/btn_share"
+        <com.vioson.chunlian.views.XingKaiButton
+            android:id="@+id/btn_save"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginRight="1dp"
             android:layout_weight="1"
             android:background="@drawable/selector_tab_bg"
-            android:text="分享"
-            android:textColor="@color/white" />
+            android:onClick="save"
+            android:text="收藏"
+            android:textColor="@color/text_yellow"
+            android:textSize="16dp" />
 
-        <Button
+        <com.vioson.chunlian.views.XingKaiButton
             android:id="@+id/btn_next"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/selector_tab_bg"
+            android:onClick="next"
             android:text="下一个"
-            android:textColor="@color/white" />
+            android:textColor="@color/text_yellow"
+            android:textSize="16sp" />
     </LinearLayout>
 
 </LinearLayout>

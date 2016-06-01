@@ -19,7 +19,8 @@
 		<item>http://list.image.baidu.com/t/image_category/galleryimg/funny/funnything/gao_xsg.jpg</item>
 		<item>http://list.image.baidu.com/t/image_category/galleryimg/funny/funnycartoon/la_bxx.jpg</item>
     </string-array>
-    
+
+
     <!-- fragment setting -->
     <string-array name="setting_items">
         <item>用户信息</item>

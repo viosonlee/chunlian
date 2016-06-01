@@ -8,14 +8,6 @@
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text_animation3.xml",
-        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\text_animation3.xml"
-    },
-    {
-        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_tab_layout.xml",
-        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\contacts_tab_layout.xml"
-    },
-    {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
@@ -84,16 +76,16 @@
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabs.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\fragment_tabs.xml"
     },
     {
-        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_tab_layout.xml",
-        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\message_tab_layout.xml"
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\activity_web.xml"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_show_text.xml",
@@ -110,6 +102,10 @@
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout_zhufu.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\tab_layout_zhufu.xml"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mylist.xml",
@@ -136,8 +132,8 @@
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_tab_layout.xml",
-        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\app_tab_layout.xml"
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout_about.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\tab_layout_about.xml"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting_item.xml",
@@ -158,6 +154,10 @@
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout_chunlian.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\tab_layout_chunlian.xml"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
@@ -186,6 +186,10 @@
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_about.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\fragment_about.xml"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",

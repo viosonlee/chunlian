@@ -13,16 +13,15 @@ import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
-import android.widget.TextView;
 
 import com.vioson.chunlian.R;
+import com.vioson.chunlian.util.DataUtil;
 
 public class MainActivity extends Activity {
 	private boolean isFirstIn;
 	private static Context context = null;
-	private TextView tv_test;
 
-	@Override
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		final View view = View.inflate(this, R.layout.activity_main, null);
@@ -32,32 +31,31 @@ public class MainActivity extends Activity {
 
 		Log.i("dd", Thread.currentThread().getName());
 		init();
-		initView();
-		AlphaAnimation ap = new AlphaAnimation(0.1f, 1.0f);
-		ap.setDuration(3000);
-		view.startAnimation(ap);
-		ap.setAnimationListener(new AnimationListener() {
-			@Override
-			public void onAnimationStart(Animation animation) {
-			}
-
-			@Override
-			public void onAnimationRepeat(Animation animation) {
-			}
-
-			@Override
-			public void onAnimationEnd(Animation animation) {
-				jump();
-			}
-		});
+        initAnim(view);
 	}
 
-	private void initView() {
-		tv_test = (TextView) findViewById(R.id.tv_test);
+    private void initAnim(View view) {
+        AlphaAnimation ap = new AlphaAnimation(0.1f, 1.0f);
+        ap.setDuration(3000);
+        view.startAnimation(ap);
+        ap.setAnimationListener(new AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+            }
 
-	}
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+            }
 
-	public static Context getContext() {
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                jump();
+            }
+        });
+    }
+
+
+    public static Context getContext() {
 		return context;
 	}
 
@@ -93,7 +91,7 @@ public class MainActivity extends Activity {
 
 		@Override
 		public void run() {
-			ActivityUtils.test();
+			DataUtil.inflaterData();
 			Log.i("dd", Thread.currentThread().getName());
 		}
 

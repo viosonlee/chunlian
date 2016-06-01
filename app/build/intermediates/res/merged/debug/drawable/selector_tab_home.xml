@@ -3,10 +3,10 @@
     
     <item 
         android:state_selected="true"
-        android:drawable="@drawable/tab_push"></item>
+        android:drawable="@drawable/tab_push"/>
     
     <item 
         android:state_selected="false"
-        android:drawable="@drawable/title"></item>
+        android:drawable="@drawable/title"/>
 
 </selector>

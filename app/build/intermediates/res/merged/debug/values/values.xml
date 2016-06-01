@@ -78,6 +78,8 @@
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="chartreuse">#7FFF00</color>
     <color name="chocolate">#D2691E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#ff0000</color>
     <color name="coral">#FF7F50</color>
     <color name="cornflowerblue">#6495ED</color>
     <color name="cornsilk">#FFF8DC</color>
@@ -244,8 +246,10 @@
     <color name="tab_selected">#00C5FF</color>
     <color name="tan">#D2B48C</color>
     <color name="teal">#008080</color>
+    <color name="text_yellow">#b3ed04</color>
     <color name="thistle">#D8BFD8</color>
     <color name="tomato">#FF6347</color>
+    <color name="tran">#00000000</color>
     <color name="turquoise">#40E0D0</color>
     <color name="violet">#EE82EE</color>
     <color name="wheat">#F5DEB3</color>
@@ -443,8 +447,8 @@
     <string name="chunjie34">新春福虎送吉祥，金虎进家富满堂，肥虎祝你寿延长，奶虎为你送健康，耕虎愿你粮满仓，红虎祝你事业旺，虎郎望你爱情长！</string>
     <string name="chunjie35">在新的一年祝大家虎年大吉，虎气冲天！身体健康如虎！总之一切虎！虎！虎！</string>
     <string name="chunjie36">虎年到来，祝您：逢虎年，办虎事，做虎人，走虎运，发虎财，虎气冲天嗷嗷叫，生活幸福哈哈笑，去年的心情还不坏，今年的日子更精彩！</string>
-    <string name="chunjie41">.愿你兔年365天，日行千里路，夜伴美人眼，天天开心活，时时快乐过，分分都精彩，秒秒都快乐！身体安康，事业有成！拜年了，爸妈！是否还记得年的味道？那一缸裹着冰渣的豆包，那一枚清脆炸响的鞭炮，那一声不需缘由的大笑，那一个永远敞开的怀抱。年的味道，中国制造。</string>
-    <string name="chunjie42">.兔年歌声送祝福：新春佳节到，我把福来祝，好运天天交，生活步步高，彩票期期中，打牌次次赢，口味顿顿好，若敢把我忘，小心开水烫！</string>
+    <string name="chunjie41">愿你兔年365天，日行千里路，夜伴美人眼，天天开心活，时时快乐过，分分都精彩，秒秒都快乐！身体安康，事业有成！拜年了，爸妈！是否还记得年的味道？那一缸裹着冰渣的豆包，那一枚清脆炸响的鞭炮，那一声不需缘由的大笑，那一个永远敞开的怀抱。年的味道，中国制造。</string>
+    <string name="chunjie42">兔年歌声送祝福：新春佳节到，我把福来祝，好运天天交，生活步步高，彩票期期中，打牌次次赢，口味顿顿好，若敢把我忘，小心开水烫！</string>
     <string name="chunjie43">清蒸鱼，糖醋鱼，水煮鱼，酸菜鱼,鱼乐无穷，如鱼得水，鱼目混珠，尔鱼我炸，鱼无伦次，祝你兔年快乐！年年有余！</string>
     <string name="chunjie44">兔腿跃起青云路,兔眼红于二月花，兔毛白过腊月雪，兔尾展开鸿运图，兔爪加盖幸福章！</string>
     <string name="chunjie45">让玉兔撞你一下，添运气；舔你一下，舔喜气；吻你一下，甜爱气；抱你一下，添和气。运气，喜气，爱气，和气，你都有了，新的一年，你更美气！</string>
@@ -521,7 +525,7 @@
     <string name="duilian64">爆竹声声除旧\n桃符代代更新</string>
     <string name="duilian65">碧海苍山玉宇\n春风丽日神州</string>
     <string name="duilian66">处处明山秀水\n家家笑语欢歌</string>
-    <string name="duilian71">一年四季春常在\n万紫千红永开花 \n横批：喜迎新春 </string>
+    <string name="duilian71">一年四季春常在\n万紫千红永开花\n横批：喜迎新春 </string>
     <string name="duilian72">春雨丝丝润万物\n红梅点点绣千山\n横批：春意盎然</string>
     <string name="duilian73">百世岁月当代好\n千古江山今朝新\n横批：万象更新</string>
     <string name="duilian74">喜居宝地千年旺\n福照家门万事兴\n横批：喜迎新春</string>
@@ -558,11 +562,14 @@
     <string name="last_one">老大，我是最后一个，您不记得我吗？</string>
     <string name="long_">龙年祝福</string>
     <string name="ma">马年祝福</string>
-    <string name="msg_word">中国春节必备神器，欢迎下载！</string>
+    <string name="msg_word">中国春节必备神器，欢迎下载！http://openbox.mobilem.360.cn/qing/app?sid=2450369</string>
+    <string name="my_weibo">我的微博</string>
     <string name="niu">牛年祝福</string>
     <string name="no_update">已经是最新版本</string>
     <string name="press_to_exit">再按一次退出程序</string>
     <string name="save_ok">成功收藏！</string>
+    <string name="saved">已收藏</string>
+    <string name="share">分享</string>
     <string name="she">蛇年祝福</string>
     <string name="shu">鼠年祝福</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -580,8 +587,13 @@
             backward-compatibility can go here.
         -->
     </style>
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1544,6 +1556,16 @@
         <item name="android:background">?attr/controlBackground</item>
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
+    </style>
+    <style name="BtnAbout" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/btn_selcet</item>
+        <item name="android:textColor">@color/text_yellow</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">16sp</item>
     </style>
     <style name="CardView" parent="Base.CardView">
     </style>

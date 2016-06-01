@@ -34,6 +34,20 @@ public class LunarFragment extends Fragment {
 //            , getString(R.string.ma), getString(R.string.yang), getString(R.string.hou),
 //            getString(R.string.ji), getString(R.string.gou), getString(R.string.zhu)};
     private ArrayList<String> mList;
+    private int[] iconIDs = {
+            R.drawable.shu,
+            R.drawable.niu,
+            R.drawable.hu,
+            R.drawable.tu,
+            R.drawable.long_,
+            R.drawable.she,
+            R.drawable.ma,
+            R.drawable.yang,
+            R.drawable.hou,
+            R.drawable.ji,
+            R.drawable.gou,
+            R.drawable.zhu
+    };
 
     @Override
     public void onAttach(Context context) {
@@ -59,7 +73,7 @@ public class LunarFragment extends Fragment {
 
 
         View view = inflater.inflate(R.layout.text_animation2, container, false);
-        mData = new ArrayList<Map<String, Object>>();
+        mData = new ArrayList<>();
         list2 = (GridView) view.findViewById(R.id.list2);
         adapter = new SimpleAdapter(getActivity(), getData(), R.layout.mylist2, new String[]{"icon", "text"}, new int[]{R.id.img_list2, R.id.tv_list2});
         list2.setAdapter(adapter);
@@ -82,7 +96,7 @@ public class LunarFragment extends Fragment {
         for (int i = 0; i < mList.size(); i++) {
             Map<String, Object> map = new HashMap<String, Object>();
             map.put("text", mList.get(i));
-            map.put("icon", R.drawable.ic_launcher);
+            map.put("icon", iconIDs[i]);
             mData.add(map);
         }
         return mData;
