@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\gson-2.1_3779338f0fc0febbdb68b51bee9cc94ca84a7bb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.21.0\42631630fe1276d4d6d6397bb07d53a4e4fec278\google-http-client-1.21.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="42631630fe1276d4d6d6397bb07d53a4e4fec278">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\google-http-client-1.21.0_fdcb0fa9610ce47fe886203d8640deaf06243495.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.4.0_edc07bca68f90e7a3dab48bd49f510563777904a.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.4.0_65568ae84b42b5ad0420841d09dfa505ab5d348f.jar" />
+    </item>
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\jsr305-1.3.9_b9e262fd3e358f2ad89faab17d3e67ce2eea82c1.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.4.0_051d22eb821e37cd330690f3ba81b6ca496eab40.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.4.0_4b62671e4532f499761c44c013288ae9c6e95b1b.jar" />
+    </item>
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.21.0\910306893fd7d6cc16bf4e358104f08dff63aeb8\google-http-client-gson-1.21.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="910306893fd7d6cc16bf4e358104f08dff63aeb8">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\google-http-client-gson-1.21.0_97f0bbca73e503c64c229f4d4b0bdff4be31f20c.jar" />
+    </item>
+    <item
+        jar="D:\SDK\SDK\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\support-annotations-23.4.0_ecc7cdc6aa4b75a4beda8c70213b7ca53ba111a3.jar" />
+    </item>
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\okhttp-3.2.0_f97807dfec9acf2febcb4381dbf67887a216022e.jar" />
+    </item>
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\cn.bmob.android\bmob-sdk\3.4.7\aabd0c041b23f1132baaf5e3c0837870f0e06c4b\bmob-sdk-3.4.7.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="aabd0c041b23f1132baaf5e3c0837870f0e06c4b">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\bmob-sdk-3.4.7_bcf5acfdf083f818721824d68f509659ad549a68.jar" />
+    </item>
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.4.0\40340c0748190fe897baf7bffbc1b282734294e5\okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\okhttp-2.4.0_a41a927e89c2f7af92a0d71fad15d11e3b035e38.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\internal_impl-23.4.0_01955a831ee7a3af145d6a0a3f5425b0a364404b.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.4.0_c9b652bf3ce6c8564030b6a905acd94ddee84896.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\chunlian\bmoblibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0431474cc673de7734f81ff024507521455ce24e">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\chunlian-bmoblibrary-unspecified_278c3843403d0a2b403fc995b359f74f2883198b.jar" />
+    </item>
+    <item
+        jar="E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-23.4.0_42f7f4db7f08e82babe0f324ba4e2a23cfa28ede.jar" />
+    </item>
+    <item
+        jar="C:\Users\cpr115\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.7.0\1dc44f4cec20a64cebb68b90b4218f82ac7948b1\okio-1.7.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1dc44f4cec20a64cebb68b90b4218f82ac7948b1">
+        <dex dex="E:\myworkspace\chunlian\app\build\intermediates\pre-dexed\release\okio-1.7.0_88de7e7481d0e8cfb6959c92849ab67f7e1166a0.jar" />
+    </item>
+
+</items>
