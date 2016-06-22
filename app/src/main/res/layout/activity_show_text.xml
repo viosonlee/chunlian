@@ -39,63 +39,69 @@
     </RelativeLayout>
 
     <!--<ScrollView-->
-        <!--android:id="@+id/sv_one"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="0dp"-->
-        <!--android:layout_weight="1">-->
-        <com.vioson.chunlian.views.XingKaiTextView
-            android:id="@+id/tv_text"
-            android:paddingTop="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:overScrollMode="ifContentScrolls"
-            android:textColor="@color/text_yellow"
-            android:textSize="35sp" />
-        <!--<RelativeLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:padding="15dp">-->
+    <!--android:id="@+id/sv_one"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1">-->
+    <com.vioson.chunlian.views.XingKaiTextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:overScrollMode="ifContentScrolls"
+        android:paddingTop="20dp"
+        android:textColor="@color/text_yellow"
+        android:textIsSelectable="true"
+        android:textSize="35sp" />
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="15dp">-->
 
-            <!--<com.vioson.chunlian.views.XingKaiTextView-->
-                <!--android:id="@+id/tv_text_up"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_below="@+id/tv_text_h"-->
-                <!--android:layout_gravity="center"-->
-                <!--android:layout_toLeftOf="@+id/tv_text_h"-->
-                <!--android:ems="1"-->
-                <!--android:text="上联"-->
-                <!--android:textColor="@color/text_yellow"-->
-                <!--android:textSize="35sp" />-->
+    <!--<com.vioson.chunlian.views.XingKaiTextView-->
+    <!--android:id="@+id/tv_text_up"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/tv_text_h"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_toLeftOf="@+id/tv_text_h"-->
+    <!--android:ems="1"-->
+    <!--android:text="上联"-->
+    <!--android:textColor="@color/text_yellow"-->
+    <!--android:textSize="35sp" />-->
 
-            <!--<com.vioson.chunlian.views.XingKaiTextView-->
-                <!--android:id="@+id/tv_text_h"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:layout_gravity="center"-->
-                <!--android:layout_marginBottom="15dp"-->
-                <!--android:ems="4"-->
-                <!--android:text="横批"-->
-                <!--android:textColor="@color/text_yellow"-->
-                <!--android:textSize="35sp" />-->
+    <!--<com.vioson.chunlian.views.XingKaiTextView-->
+    <!--android:id="@+id/tv_text_h"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginBottom="15dp"-->
+    <!--android:ems="4"-->
+    <!--android:text="横批"-->
+    <!--android:textColor="@color/text_yellow"-->
+    <!--android:textSize="35sp" />-->
 
-            <!--<com.vioson.chunlian.views.XingKaiTextView-->
-                <!--android:id="@+id/tv_text_down"-->
-                <!--android:layout_width="wrap_content"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:layout_below="@+id/tv_text_h"-->
-                <!--android:layout_gravity="center"-->
-                <!--android:layout_toRightOf="@+id/tv_text_h"-->
-                <!--android:ems="1"-->
-                <!--android:text="下联"-->
-                <!--android:textColor="@color/text_yellow"-->
-                <!--android:textSize="35sp" />-->
-        <!--</RelativeLayout>-->
+    <!--<com.vioson.chunlian.views.XingKaiTextView-->
+    <!--android:id="@+id/tv_text_down"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/tv_text_h"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_toRightOf="@+id/tv_text_h"-->
+    <!--android:ems="1"-->
+    <!--android:text="下联"-->
+    <!--android:textColor="@color/text_yellow"-->
+    <!--android:textSize="35sp" />-->
+    <!--</RelativeLayout>-->
 
     <!--</ScrollView>-->
+    <RelativeLayout
+        android:id="@+id/ad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -123,9 +129,10 @@
             android:layout_weight="1"
             android:background="@drawable/selector_tab_bg"
             android:onClick="save"
-            android:text="收藏"
+            android:text="分享"
             android:textColor="@color/text_yellow"
-            android:textSize="16dp" />
+            android:textSize="16dp"
+            android:visibility="visible" />
 
         <com.vioson.chunlian.views.XingKaiButton
             android:id="@+id/btn_next"

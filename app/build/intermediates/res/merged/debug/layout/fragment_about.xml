@@ -29,7 +29,7 @@
 
     <com.vioson.chunlian.views.XingKaiButton
         android:id="@+id/btn_set_help"
-        android:text="帮助更新"
+        android:text="数据更新"
         style="@style/BtnAbout" />
 
     <com.vioson.chunlian.views.XingKaiButton

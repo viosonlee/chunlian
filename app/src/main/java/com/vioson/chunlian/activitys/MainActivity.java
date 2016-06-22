@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -14,25 +15,30 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 
+import com.qhad.ads.sdk.adcore.Qhad;
+import com.qhad.ads.sdk.interfaces.IQhBannerAd;
+import com.qhad.ads.sdk.interfaces.QhAdBuild;
 import com.vioson.chunlian.R;
+import com.vioson.chunlian.control.CLController;
+import com.vioson.chunlian.jsoup.DataTool;
 import com.vioson.chunlian.util.DataUtil;
 
 public class MainActivity extends Activity {
-	private boolean isFirstIn;
-	private static Context context = null;
+    private static final String TAG = MainActivity.class.getSimpleName();
+    private boolean isFirstIn, isAlready;
+    private static Context context = null;
 
     @Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		final View view = View.inflate(this, R.layout.activity_main, null);
-		setContentView(view);
-		context = this;
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        final View view = View.inflate(this, R.layout.activity_main, null);
+        setContentView(view);
+        context = this;
 //		Bmob.initialize(context, "43eb3ca2f9cce3622d100c826cb4e5db");
-
-		Log.i("dd", Thread.currentThread().getName());
-		init();
+        Log.i("dd", Thread.currentThread().getName());
+        init();
         initAnim(view);
-	}
+    }
 
     private void initAnim(View view) {
         AlphaAnimation ap = new AlphaAnimation(0.1f, 1.0f);
@@ -49,52 +55,86 @@ public class MainActivity extends Activity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                jump();
+                if (isAlready)
+                    jump();
+                else isAlready = true;
             }
         });
     }
 
 
     public static Context getContext() {
-		return context;
-	}
+        return context;
+    }
 
-	private void init() {
+    private void init() {
 
-		SharedPreferences preferences = getSharedPreferences("first_pref",
-				MODE_PRIVATE);
-		isFirstIn = preferences.getBoolean("isFirstIn", true);
-		if (isFirstIn) {
-			writeData();
-		}
-	}
+        SharedPreferences preferences = getSharedPreferences("first_pref",
+                MODE_PRIVATE);
+        isFirstIn = preferences.getBoolean("isFirstIn", true);
+        if (isFirstIn) {
+//            writeData();
+            CLController.getInstance().initCLData(this, new DataTool.DataBackListener() {
+                @Override
+                public void onError() {
+                    Log.d(TAG, "onError");
+                }
 
-	private void jump() {
-		startActivity(new Intent(MainActivity.this, FragmentTabActivity.class));
-		finish();
-	}
+                @Override
+                public void onNextPage(int wordNumber, int page) {
+                    Log.d(TAG, "onNextPage" + wordNumber + "/" + page);
+                }
 
-	public void writeData() {
-		HandlerThread handlerThread = new HandlerThread("handler_Thread");
-		handlerThread.start();
-		MyHandler myHandler = new MyHandler(handlerThread.getLooper());
-		myHandler.post(new MyThread());
-	}
-	class MyHandler extends Handler {
+                @Override
+                public void onNextWordNumber(int wordNumber) {
+                    Log.d(TAG, "onNextWordNumber" + wordNumber);
+                }
 
-		public MyHandler(Looper looper) {
-			super(looper);
-		}
-	}
+                @Override
+                public void onAllUpdate(int totalCount) {
+                    Log.d(TAG, "onAllUpdate" + totalCount);
+                    if (isAlready)
+                        jump();
+                    else isAlready = true;
+                }
+            });
+        } else {
+            isAlready = true;
+        }
+    }
 
-	class MyThread implements Runnable {
+    private void jump() {
+        startActivity(new Intent(MainActivity.this, FragmentTabActivity.class));
+        finish();
+    }
 
-		@Override
-		public void run() {
-			DataUtil.inflaterData();
-			Log.i("dd", Thread.currentThread().getName());
-		}
+    public void writeData() {
+        HandlerThread handlerThread = new HandlerThread("handler_Thread");
+        handlerThread.start();
+        MyHandler myHandler = new MyHandler(handlerThread.getLooper());
+        myHandler.post(new MyThread());
+    }
 
-	}
+    class MyHandler extends Handler {
 
+        public MyHandler(Looper looper) {
+            super(looper);
+        }
+    }
+
+    class MyThread implements Runnable {
+
+        @Override
+        public void run() {
+            DataUtil.inflaterData();
+            Log.i("dd", Thread.currentThread().getName());
+        }
+
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        CLController.destroy();
+    }
 }

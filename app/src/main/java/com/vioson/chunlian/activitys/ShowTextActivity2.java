@@ -4,22 +4,26 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.qhad.ads.sdk.adcore.Qhad;
 import com.vioson.chunlian.R;
 import com.vioson.chunlian.util.DatabaseHelper;
 import com.vioson.chunlian.util.ShareUtil;
 
-public class ShowTextActivity2 extends BackActivity  {
+public class ShowTextActivity2 extends AppCompatActivity {
     private TextView tvText;
     static String text;
     private TextView tv_title;
     private int markNum;
     private Button btn_save;
+    private RelativeLayout adLayout;
+    private static final String adKey = "uau6uOOOSS";
 
     public static String getText() {
         return text;
@@ -32,9 +36,10 @@ public class ShowTextActivity2 extends BackActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.activity_show_text);
-
         init();
+        showAd();
     }
 
     private void init() {
@@ -42,15 +47,16 @@ public class ShowTextActivity2 extends BackActivity  {
         tvText.setText(text);
         tv_title = (TextView) findViewById(R.id.tv_title);
         btn_save = (Button) findViewById(R.id.btn_share);
-
+        adLayout = (RelativeLayout) findViewById(R.id.ad_layout);
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         markNum = bundle.getInt("mark2");
     }
 
     public void save(View view) {
-        btn_save.setText(getString(R.string.saved));
-        Toast.makeText(this, getString(R.string.save_ok), Toast.LENGTH_SHORT).show();
+        share();
+//        btn_save.setText(getString(R.string.saved));
+//        Toast.makeText(this, getString(R.string.save_ok), Toast.LENGTH_SHORT).show();
     }
 
     public void next(View view) {
@@ -71,7 +77,11 @@ public class ShowTextActivity2 extends BackActivity  {
         }
     }
 
-
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return super.onSupportNavigateUp();
+    }
 
     private String toDo(int posNum, String action) {
         String myData = tvText.getText().toString();
@@ -100,14 +110,12 @@ public class ShowTextActivity2 extends BackActivity  {
 
     }
 
-    @Override
-    protected void send() {
-        share();
-    }
-
     private void share() {
         String msg = tvText.getText().toString().trim();
         ShareUtil.share(this, msg);
     }
 
+    public void showAd() {
+        Qhad.showBanner(adLayout, this, adKey, false);
+    }
 }

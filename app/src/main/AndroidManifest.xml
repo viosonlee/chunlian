@@ -9,9 +9,13 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_LOGS" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/chun"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
@@ -26,5 +30,9 @@
         <activity android:name=".activitys.ShowTextActivity" />
         <activity android:name=".activitys.ShowTextActivity2" />
         <activity android:name=".activitys.WebActivity" />
+        <activity android:name="com.qhad.ads.sdk.adcore.QhAdActivity" android:configChanges="orientation|screenSize|keyboardHidden" >
+        </activity>
+        <service android:name="com.qhad.ads.sdk.service.QhAdService" android:enabled="true" android:exported="false" >
+        </service>
     </application>
 </manifest>

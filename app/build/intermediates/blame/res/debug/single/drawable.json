@@ -104,6 +104,10 @@
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chun.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\chun.png"
+    },
+    {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
     },
@@ -154,6 +158,10 @@
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bc.png",
         "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\drawable\\bc.png"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pic_icon.png",
+        "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\chunlian\\viosonlibrary\\unspecified\\res\\drawable\\pic_icon.png"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",

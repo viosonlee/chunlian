@@ -47,9 +47,11 @@ public class DataUtil {
 				values.put("mydata",MainActivity.getContext().getResources().getString(myDataTwo[j][i]));
 				new DatabaseHelper(MainActivity.getContext(), "appDataTwo"+(j+1)+".db").getWritableDatabase().insert("DATA", null, values);
 				values.clear();
-
 			}
 		}
+	}
+	public static void inflaterCLData(){
+		ContentValues values=new ContentValues();
 		for(int j=0;j<myData.length;j++){
 			for(int i=0;i<myData1.length;i++){
 				values.put("mydata",MainActivity.getContext().getResources().getString(myData[j][i]));

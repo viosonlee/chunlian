@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml
@@ -42,8 +42,16 @@ uses-permission#android.permission.READ_LOGS
 ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:10:5-68
 	android:name
 		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:14:22-65
 application
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:12:5-29:19
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:16:5-37:19
 MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [chunlian:bmoblibrary:unspecified] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\chunlian\bmoblibrary\unspecified\AndroidManifest.xml:23:5-27:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
@@ -55,48 +63,71 @@ MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\myworkspace\
 MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:cardview-v7:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [chunlian:viosonlibrary:unspecified] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\chunlian\viosonlibrary\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:19:9-41
 	android:supportsRtl
 		ADDED from [chunlian:bmoblibrary:unspecified] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\chunlian\bmoblibrary\unspecified\AndroidManifest.xml:26:9-35
 	android:allowBackup
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:14:9-45
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:18:9-38
 	android:theme
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:20:9-40
 activity#com.vioson.chunlian.activitys.MainActivity
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:17:9-24:20
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:21:9-28:20
 	android:label
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:23:13-45
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:18:13-51
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:22:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:20:13-23:29
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:24:13-27:29
 action#android.intent.action.MAIN
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:27-74
 activity#com.vioson.chunlian.activitys.FragmentTabActivity
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:25:9-67
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:29:9-67
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:25:19-64
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:29:19-64
 activity#com.vioson.chunlian.activitys.ShowTextActivity
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:9-64
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:30:9-64
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:26:19-61
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:30:19-61
 activity#com.vioson.chunlian.activitys.ShowTextActivity2
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:27:9-65
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:31:9-65
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:27:19-62
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:31:19-62
 activity#com.vioson.chunlian.activitys.WebActivity
-ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:28:9-59
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:32:9-59
 	android:name
-		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:28:19-56
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:32:19-56
+activity#com.qhad.ads.sdk.adcore.QhAdActivity
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:33:9-34:20
+	android:configChanges
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:33:71-132
+	android:name
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:33:19-70
+service#com.qhad.ads.sdk.service.QhAdService
+ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:35:9-36:19
+	android:enabled
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:35:70-92
+	android:exported
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:35:93-117
+	android:name
+		ADDED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml:35:18-69
 uses-sdk
 INJECTED from E:\myworkspace\chunlian\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
@@ -109,6 +140,16 @@ MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\
 MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:cardview-v7:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [chunlian:viosonlibrary:unspecified] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\chunlian\viosonlibrary\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.4.0] E:\myworkspace\chunlian\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary

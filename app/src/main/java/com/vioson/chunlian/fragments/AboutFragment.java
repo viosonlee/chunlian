@@ -1,7 +1,6 @@
 package com.vioson.chunlian.fragments;
 
 
-import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -10,10 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.vioson.chunlian.R;
+import com.vioson.chunlian.control.CLController;
+import com.vioson.chunlian.jsoup.DataTool;
 import com.vioson.chunlian.util.ActivitySwitchBase;
 
 
@@ -41,7 +41,27 @@ public class AboutFragment extends Fragment implements OnClickListener {
                 ActivitySwitchBase.toH5Activity(getActivity(), getString(R.string.my_weibo), MY_WEIBO_URL);
                 break;
             case R.id.btn_set_help:
-                Toast.makeText(getActivity(), getString(R.string.no_update), Toast.LENGTH_SHORT).show();
+                CLController.getInstance().upDateCLDate(getActivity(), new DataTool.DataBackListener() {
+                    @Override
+                    public void onError() {
+
+                    }
+
+                    @Override
+                    public void onNextPage(int wordNumber, int page) {
+
+                    }
+
+                    @Override
+                    public void onNextWordNumber(int wordNumber) {
+
+                    }
+
+                    @Override
+                    public void onAllUpdate(int totalCount) {
+                        Toast.makeText(getActivity(), "共更新" + totalCount + "条数据", Toast.LENGTH_SHORT).show();
+                    }
+                });
                 break;
             case R.id.btn_set_about:
                 showUs();
@@ -51,7 +71,7 @@ public class AboutFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.btn_more:
                 ActivitySwitchBase.toH5Activity(getActivity(), "中国春联网",
-                        CHUNLIAN_WANG);
+                        DataTool.URL);
                 break;
         }
     }
@@ -60,8 +80,8 @@ public class AboutFragment extends Fragment implements OnClickListener {
         Builder builder = null;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
             builder = new Builder(getActivity(), android.R.style.Theme_Material_Dialog_Alert);
-        }else {
-            builder=new Builder(getActivity());
+        } else {
+            builder = new Builder(getActivity());
         }
         builder.setTitle(getString(R.string.about_title));
         builder.setMessage(R.string.about);

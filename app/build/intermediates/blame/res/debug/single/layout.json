@@ -76,12 +76,12 @@
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabs.xml",
-        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\fragment_tabs.xml"
-    },
-    {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabs.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\fragment_tabs.xml"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_web.xml",
@@ -112,12 +112,12 @@
         "source": "E:\\myworkspace\\chunlian\\app\\src\\main\\res\\layout\\mylist.xml"
     },
     {
-        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
-    },
-    {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
         "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
     },
     {
         "merged": "E:\\myworkspace\\chunlian\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",

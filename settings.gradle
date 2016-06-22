@@ -1,1 +1,1 @@
-include ':app', ':bmoblibrary'
+include ':app', ':bmoblibrary', ':viosonlibrary'
